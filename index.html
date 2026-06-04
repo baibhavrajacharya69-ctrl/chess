@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chesss board</title>
+    <link rel="stylesheet" href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-wrapper">
+        <header>
+            <h1>Chess Board</h1>
+            <p id="status-display">Get ready...</p>
+        </header>
+
+        <div id="board"></div>
+
+        <div class="button-group">
+            <button id="guideBtn">How to Play</button>
+            <button id="fsBtn">Go Fullscreen</button>
+        </div>
+    </div>
+
+    <div id="promoModal" class="modal">
+        <div class="modal-content">
+            <h3>Choose your piece:</h3>
+            <button onclick="handlePromotion('q')">Queen</button>
+            <button onclick="handlePromotion('r')">Rook</button>
+            <button onclick="handlePromotion('b')">Bishop</button>
+            <button onclick="handlePromotion('n')">Knight</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

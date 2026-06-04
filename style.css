@@ -1,0 +1,25 @@
+body{
+    background-color: #f7f3e8;
+    font-family:'Segeo Ui', sans-serif;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin:0;
+}
+.main-wrapper {
+    background: #fff;
+    padding: 3rem;
+    border-radius: 25px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    text-align:center;
+    max-width: 800 px;
+}
+#board {
+    width: 650px;
+    margin: 30px auto;
+    border: 6px solid #333;
+    border-radius: 4px;
+    }
+    h1 { color: #ff6f61; margin-bottom:5px;}
+    #status-display { font-weight:bold; colow:#555;}
+}
