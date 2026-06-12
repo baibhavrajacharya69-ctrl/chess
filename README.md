@@ -1,5 +1,6 @@
 
-♟️ Chess board  game .
+# Chess board  game .
+
  I built a playful, interactive  chess game built for Macondo hackclub event this chess game is an classic strategy game which is wraped in a modern, userfriendly interface  which makes this game easy accessable and fun to play with friends.
 
 
